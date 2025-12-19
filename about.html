@@ -76,6 +76,60 @@
             </div>
         </div>
     </section>
+    <section class="page-section about-heading">
+        <div class="container">
+
+            <div class="about-heading-content">
+                <div class="row">
+                    <div class="col-xl-9 col-lg-10 mx-auto">
+                        <div class="bg-faded rounded p-5">
+                            <h2 class="section-heading mb-4">
+                                <span class="section-heading-upper">Köörin koiraystävät</span>
+                                <span class="section-heading-lower">Rakastamme koiria</span>
+                            </h2>
+                            <p>Kahvilassamme vierailee kerran kuussa lukukoira Jouko, joka tarjoaa läsnäolollaan tukea
+                                kieltenopiskeluun ja lukemiseen.</p>
+                            <p>Koska eläinkuvien katselu parantaa tutkitusti
+                                mielialaa, tuomme maailman koiraköörin luoksesi näyttämällä tässä alla satunnaisen
+                                koirakuvan. Päivittämällä sivun saat näkyviin uuden koirakuvan. Toivomme että kuva
+                                tuo
+                                iloa päivääsi &#9829;</p>
+
+                            <div id="koirat">
+                                <img id="doge" alt="random doge" style="max-width:300px;">
+                            </div>
+
+                            <script>
+                                fetch('https://dog.ceo/api/breeds/image/random')
+
+                                    .then(function (response) {
+                                        return response.json();
+                                    })
+
+                                    .then(function (responseJson) {
+                                        kerro(responseJson);
+                                    })
+
+                                    .catch(function (error) {
+                                        document.getElementById("koirat").innerHTML =
+                                            "<p>Tietoa ei pystytä hakemaan</p>";
+                                    })
+
+                                function kerro(data) {
+                                    let teksti = "";
+
+                                    teksti = "<img src='" + data.message + "' alt='Random dog' style='max-width:300px;'>" + "<p>kuvalähde: https://dog.ceo/dog-api/</p>";
+
+                                    document.getElementById("koirat").innerHTML = teksti;
+                                }
+                            </script>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer class="footer text-faded text-center py-5">
         <div class="container">
             <p class="m-0 small">Copyright &copy; Kielikahvila Kööri 2025</p>

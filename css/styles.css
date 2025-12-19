@@ -74,8 +74,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #e6a756;
-  --bs-link-hover-color: #b88645;
+  --bs-link-color: #dea7cc;
+  --bs-link-hover-color: #dea7cc;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -3304,15 +3304,14 @@ fieldset:disabled .btn {
 
 .btn-primary {
   --bs-btn-color: #000;
-  --bs-btn-bg: #e6a756;
-  --bs-btn-border-color: #e6a756;
+  --bs-btn-bg: #92d2c9;
+  --bs-btn-border-color: #92d2c9;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #eab46f;
-  --bs-btn-hover-border-color: #e9b067;
-  --bs-btn-focus-shadow-rgb: 196, 142, 73;
+  --bs-btn-hover-bg: #fcee1d;
+  --bs-btn-hover-border-color: var(--bs-black) --bs-btn-focus-shadow-rgb: 196, 142, 73;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #ebb978;
-  --bs-btn-active-border-color: #e9b067;
+  --bs-btn-active-bg: #92d2c9;
+  --bs-btn-active-border-color: #92d2c9;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #000;
   --bs-btn-disabled-bg: #e6a756;
@@ -3372,19 +3371,19 @@ fieldset:disabled .btn {
 
 .btn-warning {
   --bs-btn-color: #000;
-  --bs-btn-bg: #ffc107;
-  --bs-btn-border-color: #ffc107;
+  --bs-btn-bg: #dea7cc;
+  --bs-btn-border-color: #dea7cc;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #ffca2c;
-  --bs-btn-hover-border-color: #ffc720;
+  --bs-btn-hover-bg: #dea7cc;
+  --bs-btn-hover-border-color: #dea7cc;
   --bs-btn-focus-shadow-rgb: 217, 164, 6;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #ffcd39;
-  --bs-btn-active-border-color: #ffc720;
+  --bs-btn-active-bg: #dea7cc;
+  --bs-btn-active-border-color: #dea7cc;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #000;
-  --bs-btn-disabled-bg: #ffc107;
-  --bs-btn-disabled-border-color: #ffc107;
+  --bs-btn-disabled-bg: #dea7cc;
+  --bs-btn-disabled-border-color: #dea7cc;
 }
 
 .btn-danger {
@@ -3439,19 +3438,19 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary {
-  --bs-btn-color: #e6a756;
-  --bs-btn-border-color: #e6a756;
+  --bs-btn-color: #92d2c9;
+  --bs-btn-border-color: #92d2c9;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #e6a756;
-  --bs-btn-hover-border-color: #e6a756;
+  --bs-btn-hover-bg: #92d2c9;
+  --bs-btn-hover-border-color: #92d2c9;
   --bs-btn-focus-shadow-rgb: 230, 167, 86;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #e6a756;
-  --bs-btn-active-border-color: #e6a756;
+  --bs-btn-active-bg: #92d2c9;
+  --bs-btn-active-border-color: #92d2c9;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #e6a756;
+  --bs-btn-disabled-color: #92d2c9;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #e6a756;
+  --bs-btn-disabled-border-color: #92d2c9;
   --bs-gradient: none;
 }
 
@@ -3507,19 +3506,19 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-warning {
-  --bs-btn-color: #ffc107;
-  --bs-btn-border-color: #ffc107;
+  --bs-btn-color: #dea7cc;
+  --bs-btn-border-color: #dea7cc;
   --bs-btn-hover-color: #000;
-  --bs-btn-hover-bg: #ffc107;
-  --bs-btn-hover-border-color: #ffc107;
+  --bs-btn-hover-bg: #dea7cc;
+  --bs-btn-hover-border-color: #dea7cc;
   --bs-btn-focus-shadow-rgb: 255, 193, 7;
   --bs-btn-active-color: #000;
-  --bs-btn-active-bg: #ffc107;
-  --bs-btn-active-border-color: #ffc107;
+  --bs-btn-active-bg: #dea7cc;
+  --bs-btn-active-border-color: #dea7cc;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #ffc107;
+  --bs-btn-disabled-color: #dea7cc;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #ffc107;
+  --bs-btn-disabled-border-color: #dea7cc;
   --bs-gradient: none;
 }
 
@@ -3704,7 +3703,7 @@ fieldset:disabled .btn {
   --bs-dropdown-link-hover-color: #1e2125;
   --bs-dropdown-link-hover-bg: #e9ecef;
   --bs-dropdown-link-active-color: #fff;
-  --bs-dropdown-link-active-bg: #e6a756;
+  --bs-dropdown-link-active-bg: #92d2c9;
   --bs-dropdown-link-disabled-color: #adb5bd;
   --bs-dropdown-item-padding-x: 1rem;
   --bs-dropdown-item-padding-y: 0.25rem;
@@ -7695,7 +7694,7 @@ fieldset:disabled .btn {
 }
 
 .link-warning {
-  color: #ffc107 !important;
+  color: #dea7cc !important;
 }
 
 .link-warning:hover,
@@ -12732,7 +12731,8 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: #93a5d0;
+
 }
 
 .cta .cta-inner {
