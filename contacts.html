@@ -8,26 +8,29 @@
     <meta name="author" content="" />
     <title>Yhteystiedot - Kielikahvila Kööri</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Google fonts-->
+
     <link
         href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
-    <!-- Core theme CSS (includes Bootstrap)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 
 <body>
     <header>
         <h1 class="site-heading text-center text-faded d-none d-lg-block">
-            <span class="site-heading-upper text-primary mb-3">Palvelemme täydellä sydämellä</span>
-            <span class="site-heading-lower">YHTEYStiedot JA AUKIOLOAJAT</span>
+            <span class="site-heading-upper text-primary mb-3">Köörimme palvelee täydellä sydämellä</span>
+            <span class="site-heading-lower">YHTEYSTIEDOT JA AUKIOLOAJAT</span>
         </h1>
     </header>
-    <!-- Navigation-->
+
     <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
         <div class="container">
-            <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">YHTEYS & AUKIOLOAJAT</a>
+            <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">YHTEYSTIEDOT</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -43,14 +46,15 @@
             </div>
         </div>
     </nav>
+
     <section class="page-section cta">
         <div class="container">
             <div class="row">
                 <div class="col-xl-9 mx-auto">
                     <div class="cta-inner bg-faded text-center rounded">
                         <h2 class="section-heading mb-5">
-                            <span class="section-heading-upper">Vesi kielellä - vaikka joka päivä</span>
-                            <span class="section-heading-lower">AUKIOLOAJAT</span>
+                            <span class="section-heading-upper">Kahvia vuoden jokaisena päivänä</span>
+                            <span class="section-heading-lower">Aukioloajat</span>
                         </h2>
                         <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
                             <li class="list-unstyled-item list-hours-item d-flex">
@@ -82,79 +86,31 @@
                                 <span class="ms-auto">10.00–23.00</span>
                             </li>
                         </ul>
+
                         <p class="address mb-5">
-                            <em>
-                                <strong>Alatalonraitti 2</strong>
+                            <strong>Ota yhteyttä</strong>
+                            <br />
+                            <small> <em>kahvila@koori.fi</em>
                                 <br />
-                                33101 Tampere
-                            </em>
+                                puh. 031234567</small>
                         </p>
+
                         <p class="mb-0">
-                            <small><em>Ota yhetyttä</em></small>
+
+                            Kielikahvila Kööri
                             <br />
-                            kahvila@koori.fi
+                            Alatalonraitti 2
                             <br />
-                            puh. 031234567
+                            33101 Tampere
+
                         </p>
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="page-section about-heading">
-        <div class="container">
-            <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="assets/img/about.jpg" alt="..." />
-            <div class="about-heading-content">
-                <div class="row">
-                    <div class="col-xl-9 col-lg-10 mx-auto">
-                        <div class="bg-faded rounded p-5">
-                            <h2 class="section-heading mb-4">
-                                <span class="section-heading-upper">Köörin koiraystävät</span>
-                                <span class="section-heading-lower">Rakastamme koiria</span>
-                            </h2>
-                            <p>Kahvilassamme vierailee kerran kuussa lukukoira Jouko, joka tarjoaa läsnäolollaan tukea
-                                kieltenopiskeluun ja lukemiseen.</p>
-                            <p>Koska myös eläinkuvien katselu parantaa tutkitusti
-                                mielialaa, tuomme maailman koiraköörin luoksesi näyttämällä tässä alla satunnaisen
-                                koirakuvan. Päivittämällä tai
-                                avaamalla sivun uudelleen, saat näkyviin uuden, suloisen koirakuvan. Toivottavasti kuva
-                                tuo
-                                iloa ja voimaa päivääsi &#9829;</p>
 
-                            <div id="koirat">
-                                <img id="doge" alt="random doge" style="max-width:300px;">
-                            </div>
-
-                            <script>
-                                fetch('https://dog.ceo/api/breeds/image/random')
-
-                                    .then(function (response) {
-                                        return response.json();
-                                    })
-
-                                    .then(function (responseJson) {
-                                        kerro(responseJson);
-                                    })
-
-                                    .catch(function (error) {
-                                        document.getElementById("koirat").innerHTML =
-                                            "<p>Tietoa ei pystytä hakemaan</p>";
-                                    })
-
-                                function kerro(data) {
-                                    let teksti = "";
-
-                                    teksti = "<img src='" + data.message + "' alt='Random dog' style='max-width:300px;'>" + "<p>(kuvalähde: https://dog.ceo/dog-api/)</p>";
-
-                                    document.getElementById("koirat").innerHTML = teksti;
-                                }
-                            </script>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <footer class="footer text-faded text-center py-5">
         <div class="container">
             <p class="m-0 small">Copyright &copy; Kielikahvila Kööri 2025</p>
